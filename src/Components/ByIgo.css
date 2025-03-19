@@ -3,7 +3,6 @@
     display: flex;
     justify-content: space-between;
     position: relative;
-    /* background-color: yellow; */
     padding: 26.5px 102px  197.5px 140px;
 }
 .by-igo-right-div{
@@ -41,7 +40,6 @@
     margin: 0;    
 }
 .ny-igo-heading-div-2 p{
-    /* width: 100%; */
     padding: 0px 26px 0px 28px;
     font-family: Kodchasan;
     font-weight: 700;
@@ -52,7 +50,6 @@
     margin: 0;    
 }
 .ny-igo-heading-div-3 p{
-    /* width: 100%; */
     padding: 0px 26px 0px 0px;
     font-family: Kodchasan;
     font-weight: 400;
@@ -74,6 +71,7 @@
     width: 100%;
     max-width: 400px;
     background-color: #07131A;
+    position: relative;
   }
   
   .crypto-input {
@@ -91,10 +89,10 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    /* background: black; */
-    /* border-radius: 20px;
-    padding: 5px 10px; */
     cursor: pointer;
+    position: absolute;
+    top: 20%;
+    right: 10px;
   }
   
   .crypto-logo {
@@ -112,11 +110,17 @@
 
 .ny-igo-heading-div-5{
     width: 191px;
+    background: url(/public/Pictures/multi-line.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: 0 auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
     display: flex;
     justify-content: center;
-    border: 1.64px solid linear-gradient(90.61deg, #02364B 0.17%, #19A7BB 52.99%, #FF414D 94.86%);
-    margin: 0 auto;
+    align-items: center;
 }
+
 .buy-now{
     width: 100%;
     height: 50px;
@@ -375,7 +379,6 @@
     }
 
     .by-igo-right-div {
-        /* max-width: 100%; */
         margin-top: 50px;
     }
 
@@ -402,10 +405,12 @@
 
     .buy-now {
         max-width: 300px;
+        margin: 0 auto;
+        margin-top: 30px;
+        margin-bottom: 20px;
     }
 
     .bay-igo-left-div {
-        /* background-image: none; */
         position:static;
         background: linear-gradient(102.07deg, #19A7BB 15.61%, #02364B 85.58%, #02364B 86.5%, #FF414D 98.91%);
         margin: 0px auto;
@@ -417,7 +422,6 @@
         right:25%;
     }
     .inner-bay-igo-div {
-        /* max-width: 100%; */
         padding: 100px 20px 50px 20px;
     }
 
@@ -455,11 +459,15 @@
     }
 
     .crypto-input-container {
-        max-width: 200px;
+        max-width: 70%;
+        margin-top: 10px;
     }
 
     .buy-now {
-        max-width: 250px;
+        max-width: 80%;
+        margin: 0 auto;
+        margin-top: 20px;
+        margin-bottom: 20px;
     }
     .bay-igo-left-div{
         height: auto;
@@ -509,16 +517,6 @@
         font-size: 6px;
     }
 
-    .crypto-input-container {
-        /* max-width: 150px; */
-        max-width: 80%;
-        margin: 20px 0px 0px 0px;
-    }
-    .buy-now {
-        /* max-width: 200px; */
-        max-width: 90%;
-        margin:20px 0px 0px 20px ;
-    }
 
     .inner-bay-igo-div h4 {
         font-size: 20px;

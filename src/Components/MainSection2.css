@@ -46,12 +46,10 @@
 }
 .inner-3k-div{
     max-width: 366px;
-    /* height: 190; */
     border-radius: 25px;
     background: rgba(1, 16, 22, 1);
 }
 .inner-div-describtion{
-    /* width: 100%; */
     max-width: 311px;
     display: flex;
     justify-content: space-between;
@@ -87,7 +85,6 @@
     margin: 0;
 }
 .link-3k-div{
-    /* width: 100%; */
     max-width: 342px;
     border-bottom-right-radius: 25px;
     border-bottom-left-radius: 25px;
@@ -126,14 +123,11 @@
 
 .accordion {
     width: 100%;
-    /* max-width: 524px; */
     padding-top: 37px;
   }
   
   .accordion-item {
     background: #050a0f;
-    /* margin-bottom: 10px; */
-    /* border-radius: 5px; */
     padding: 19px 0px 24px 12px;
     cursor: pointer;
     border-top: 1.67px solid rgba(133, 225, 232, 1);
@@ -189,7 +183,6 @@
     }
     .accordion {
         width: 100%;
-        /* max-width: 524px; */
         padding-top: 27px;
       }
   }
@@ -207,12 +200,10 @@
         flex-direction: column;
     }
     .right-section-div{
-        /* align-items: center; */
         max-width: 100%;
     }
      .left-section-div{
         max-width: 100%;
-        /* max-width: 350px; */
         display: flex;
         flex-direction: column;
         gap: 20px;
@@ -226,7 +217,6 @@
     }
     .accordion {
         width: 100%;
-        /* max-width: 524px; */
         padding-top: 0;
       }
   }
@@ -275,7 +265,6 @@
     }
     .left-section-div img {
         width: 100%;
-        /* max-width: 300px; */
     }
     .accordion-header {
         font-size: 1rem;

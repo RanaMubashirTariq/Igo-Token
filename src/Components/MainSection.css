@@ -1,8 +1,6 @@
 .hero-container {
     max-width: 100%;
     height: auto;
-    /* margin: auto; */
-    /* text-align: center; */
     padding: 96px 15px 50px 120px;
     position: relative;
 }
@@ -84,7 +82,7 @@
     padding-top: 11px;
 }
 
-/* Image Section */
+
 .image-section{
     box-sizing: border-box;
     position: absolute;
@@ -274,14 +272,12 @@
     }
     .info-container {
         flex-direction: column;
-        /* align-items: flex-start; */
         margin-top: 35.83px;
     }
     .info-box-1 {
         width: 100%;
         max-width: 350px;
         margin-bottom: 20px;
-        /* text-align: center; */
     }
     .igo-coin img {
         width: 280px;
@@ -300,8 +296,8 @@
     .social-links {
         width: 250px; 
         position:absolute;
-           top: 900px;
-           right: -20%;
+        top: 900px;
+        right: -20%;
         display: flex;
         flex-direction: column;
         gap: 15px;
