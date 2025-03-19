@@ -1,0 +1,531 @@
+.by-igo-main-div{
+    max-width: 100%;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    /* background-color: yellow; */
+    padding: 26.5px 102px  197.5px 140px;
+}
+.by-igo-right-div{
+    width: 100%;
+    max-width: 495px;
+    height: auto;
+    border-radius: 49.34px;
+    background: rgba(1, 16, 22, 1);
+    box-sizing: border-box;
+    margin-top: 90px;
+}
+.ny-igo-heading-div-1{
+    width: 100%;
+    max-width: 241px;
+    padding: 36.67px 127.33px 26.33px 126.67px;
+}
+.ny-igo-heading-div-1 h2{
+    font-family: Fahkwang;
+    font-weight: 700;
+    font-size: 49.17px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.5);
+    margin: 0;    
+}
+.ny-igo-heading-div-1 h2 span{
+    font-family: Kodchasan;
+    font-weight: 700;
+    font-size: 15.83px;
+    line-height: 30px;
+    letter-spacing: 0%;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.5);
+    margin: 0;    
+}
+.ny-igo-heading-div-2 p{
+    /* width: 100%; */
+    padding: 0px 26px 0px 28px;
+    font-family: Kodchasan;
+    font-weight: 700;
+    font-size: 15.83px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    color: rgba(255, 255, 255, 0.5);
+    margin: 0;    
+}
+.ny-igo-heading-div-3 p{
+    /* width: 100%; */
+    padding: 0px 26px 0px 0px;
+    font-family: Kodchasan;
+    font-weight: 400;
+    font-size: 14.41px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    text-align: right;
+    color: rgba(255, 255, 255, 0.5);
+    margin: 0;   
+}
+
+
+.crypto-input-container {
+    display: flex;
+    align-items: center;
+    border-radius: 45px;
+    padding: 10.17px 25.83px 16.67px 27.5px;
+    margin: 0 auto;
+    width: 100%;
+    max-width: 400px;
+    background-color: #07131A;
+  }
+  
+  .crypto-input {
+    flex: 1;
+    background: transparent;
+    border: none;
+    outline: none;
+    color: white;
+    font-size: 16px;
+    padding: 8px;
+    border-radius: 4px 0 0 4px;
+  }
+  
+  .crypto-dropdown {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* background: black; */
+    /* border-radius: 20px;
+    padding: 5px 10px; */
+    cursor: pointer;
+  }
+  
+  .crypto-logo {
+    width: 24px;
+    height: 24px;
+  }
+  
+  .img-2 {
+    width: 16px;
+    height: 16px;
+    color: red;
+    margin-left: 5px;
+  }
+
+
+.ny-igo-heading-div-5{
+    width: 191px;
+    display: flex;
+    justify-content: center;
+    border: 1.64px solid linear-gradient(90.61deg, #02364B 0.17%, #19A7BB 52.99%, #FF414D 94.86%);
+    margin: 0 auto;
+}
+.buy-now{
+    width: 100%;
+    height: 50px;
+    max-width: 441px;
+    border-radius: 45px;
+    padding: 13.5px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8.33px;
+    background: rgba(255, 65, 77, 1);
+    margin: 34.17px 25.33px 80px 27.67px;
+}
+
+.buy-now button{
+    background: none;
+    outline: none;
+    border: none;
+    font-family: Kodchasan;
+    font-weight: 700;
+    font-size: 17.5px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    color: rgba(255, 255, 255, 1);
+}
+.buy-now button:hover {
+    background: #e04343;
+}
+
+/*  prt 2 */
+
+
+
+.bay-igo-left-div{
+    max-width: 902px;
+    height: 633px;
+    border-radius: 20px;
+    background-image: url(/public/Pictures/blank-pic.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: absolute;
+     top: 167.5px;
+     right: 102px;
+     z-index: -1;
+}
+.igo-coin10-div{
+    position: absolute;
+    top: -290px;
+    right: 20px;
+}
+.inner-bay-igo-div{
+    max-width: 577px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 167.9px 0px 0px 272px;
+}
+.wraper-sale-div{
+    width: 179px;
+    height: 41px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 27.61px;
+    padding-top: 10.35px 55.22px;
+    gap: 11.5px;
+    border: 1.15px solid rgba(25, 167, 187, 1);
+}
+.wraper-sale-div p{
+    font-family: Kodchasan;
+    font-weight: 700;
+    font-size: 16.1px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    color: rgba(255, 255, 255, 1);
+    margin: 0;
+}
+.inner-bay-igo-div h4{
+    font-family: Fahkwang;
+    font-weight: 275;
+    font-size: 60px;
+    line-height: 63.33px;
+    letter-spacing: 5%;
+    color: rgba(255, 255, 255, 1);
+    margin: 0;
+}
+.inner-bay-igo-div h4 span{
+    font-weight: 400;
+    font-size: 60px;
+    line-height: 63.33px;
+    letter-spacing: 5%;
+}
+.inner-bay-igo-div p{
+    max-width: 530px;
+    font-family: Kodchasan;
+    font-weight: 400;
+    font-size: 18.41px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    color: rgba(169, 169, 169, 1);
+    margin: 0;
+}
+
+.bay-igo-left-div button{
+    outline: none;
+    border: none;
+    width: 178px;
+    height: 44px;
+    border-radius: 53.33px;
+    gap: 8.33px;
+    background: rgba(255, 65, 77, 1);
+}
+.bay-igo-left-div button:hover {
+    background: #e04343;
+}
+
+
+
+@media (max-width: 1330px) {
+    .by-igo-main-div {
+        padding: 20px 150px 150px 100px;
+    }
+
+    .by-igo-right-div {
+        max-width: 450px;
+    }
+
+    .ny-igo-heading-div-1 {
+        padding: 30px 100px 20px 100px;
+    }
+
+    .ny-igo-heading-div-1 h2 {
+        font-size: 40px;
+    }
+
+    .ny-igo-heading-div-1 h2 span {
+        font-size: 14px;
+    }
+
+    .ny-igo-heading-div-2 p,
+    .ny-igo-heading-div-3 p {
+        font-size: 14px;
+    }
+
+    .crypto-input-container {
+        max-width: 350px;
+    }
+
+    .buy-now {
+        max-width: 400px;
+    }
+
+    .bay-igo-left-div {
+        max-width: 800px;
+        height: 550px;
+        top: 150px;
+        right: 80px;
+    }
+    .igo-coin10-div{
+        position: absolute;
+        top: -230px;
+        right: 40px;
+
+    }
+    .igo-coin10-div img{
+        width: 450px;
+        height: 450px;
+    }
+    .inner-bay-igo-div {
+        max-width: 500px;
+        padding: 150px 50px 0px 270px;
+    }
+
+    .inner-bay-igo-div h4 {
+        font-size: 50px;
+        line-height: 55px;
+    }
+
+    .inner-bay-igo-div p {
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 1050px) {
+    .by-igo-main-div {
+        padding: 15px 30px 100px 80px;
+    }
+
+    .by-igo-right-div {
+        max-width: 400px;
+    }
+
+    .ny-igo-heading-div-1 {
+        padding: 25px 80px 15px 80px;
+    }
+
+    .ny-igo-heading-div-1 h2 {
+        font-size: 35px;
+    }
+
+    .ny-igo-heading-div-1 h2 span {
+        font-size: 12px;
+    }
+
+    .ny-igo-heading-div-2 p,
+    .ny-igo-heading-div-3 p {
+        font-size: 12px;
+    }
+
+    .crypto-input-container {
+        max-width: 300px;
+    }
+
+    .buy-now {
+        max-width: 350px;
+    }
+
+    .bay-igo-left-div {
+        max-width: 700px;
+        height: 500px;
+        top: 130px;
+        right: 60px;
+    }
+    .igo-coin10-div{
+        position: absolute;
+        top: -170px;
+        right: 30px;
+
+    }
+    .igo-coin10-div img{
+        width: 350px;
+        height: 350px;
+    }
+    .inner-bay-igo-div {
+        max-width: 400px;
+        padding: 130px 40px 0px 200px;
+    }
+
+    .inner-bay-igo-div h4 {
+        font-size: 40px;
+        line-height: 45px;
+    }
+
+    .inner-bay-igo-div p {
+        font-size: 14px;
+    }
+}
+
+
+@media (max-width: 915px) {
+    .by-igo-main-div {
+        flex-direction: column-reverse;
+        align-items: center;
+        padding: 10px 50px 80px 50px;
+    }
+
+    .by-igo-right-div {
+        /* max-width: 100%; */
+        margin-top: 50px;
+    }
+
+    .ny-igo-heading-div-1 {
+        padding: 20px 60px 10px 60px;
+    }
+
+    .ny-igo-heading-div-1 h2 {
+        font-size: 30px;
+    }
+
+    .ny-igo-heading-div-1 h2 span {
+        font-size: 10px;
+    }
+
+    .ny-igo-heading-div-2 p,
+    .ny-igo-heading-div-3 p {
+        font-size: 10px;
+    }
+
+    .crypto-input-container {
+        max-width: 250px;
+    }
+
+    .buy-now {
+        max-width: 300px;
+    }
+
+    .bay-igo-left-div {
+        /* background-image: none; */
+        position:static;
+        background: linear-gradient(102.07deg, #19A7BB 15.61%, #02364B 85.58%, #02364B 86.5%, #FF414D 98.91%);
+        margin: 0px auto;
+        margin-top: 100px;
+    }
+    .igo-coin10-div{
+        position: absolute;
+        top: -100px;
+        right:25%;
+    }
+    .inner-bay-igo-div {
+        /* max-width: 100%; */
+        padding: 100px 20px 50px 20px;
+    }
+
+    .inner-bay-igo-div h4 {
+        font-size: 30px;
+        line-height: 35px;
+    }
+
+    .inner-bay-igo-div p {
+        font-size: 12px;
+    }
+}
+
+
+@media (max-width: 480px) {
+    .by-igo-main-div {
+        padding: 10px 25px 50px 25px;
+    }
+
+    .ny-igo-heading-div-1 {
+        padding: 15px 40px 5px 40px;
+    }
+
+    .ny-igo-heading-div-1 h2 {
+        font-size: 25px;
+    }
+
+    .ny-igo-heading-div-1 h2 span {
+        font-size: 8px;
+    }
+
+    .ny-igo-heading-div-2 p,
+    .ny-igo-heading-div-3 p {
+        font-size: 8px;
+    }
+
+    .crypto-input-container {
+        max-width: 200px;
+    }
+
+    .buy-now {
+        max-width: 250px;
+    }
+    .bay-igo-left-div{
+        height: auto;
+    }
+    .igo-coin10-div{
+        position: absolute;
+        top: -10px;
+        right:12.5%;
+    }
+    .igo-coin10-div img{
+            width: 250px;
+            height: 250px;
+    }
+    .inner-bay-igo-div h4 {
+        font-size: 25px;
+        line-height: 30px;
+    }
+    .inner-bay-igo-div h4 span{
+        font-size: 32px;
+        line-height: 30px;
+    }
+
+    .inner-bay-igo-div p {
+        font-size: 10px;
+    }
+}
+
+@media (max-width: 360px) {
+    .by-igo-main-div {
+        padding: 5px 25px 30px 25px;
+    }
+
+    .ny-igo-heading-div-1 {
+        padding: 10px 20px 5px 20px;
+    }
+
+    .ny-igo-heading-div-1 h2 {
+        font-size: 20px;
+    }
+
+    .ny-igo-heading-div-1 h2 span {
+        font-size: 6px;
+    }
+    
+    .ny-igo-heading-div-2 p,
+    .ny-igo-heading-div-3 p {
+        font-size: 6px;
+    }
+
+    .crypto-input-container {
+        /* max-width: 150px; */
+        max-width: 80%;
+        margin: 20px 0px 0px 0px;
+    }
+    .buy-now {
+        /* max-width: 200px; */
+        max-width: 90%;
+        margin:20px 0px 0px 20px ;
+    }
+
+    .inner-bay-igo-div h4 {
+        font-size: 20px;
+        line-height: 25px;
+    }
+
+    .inner-bay-igo-div p {
+        font-size: 8px;
+    }
+}

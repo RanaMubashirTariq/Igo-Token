@@ -1,24 +1,25 @@
-import logo from './logo.svg';
 import './App.css';
+import ByIgo from './Components/ByIgo';
+import Faqs from './Components/Faqs';
+import FooterSection from './Components/FooterSection';
+import GetInvolved from './Components/GetInvolved';
+import HomeSection from './Components/HomeSection';
+import MainSection2 from './Components/MainSection2';
+import TokenomicsIgo from './Components/TokenomicsIgo';
+import WhyChoiceIgoSection from './Components/WhyChoiceIgoSection';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+           <HomeSection/>
+           {/* <MainSection2/> */}
+           <ByIgo/>
+            <TokenomicsIgo/>
+            {/* <WhyChoiceIgoSection/> */}
+           <Faqs/>
+           <GetInvolved/>
+           <FooterSection/>
+    </div> 
   );
 }
 

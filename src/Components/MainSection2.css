@@ -1,0 +1,314 @@
+.main-section-div-2{
+    max-width: 100%;
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    padding: 200px 120px 50px 120px;
+}
+.right-section-div{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.right-section-div h2{
+   max-width: 500px;
+    font-family: Fahkwang;
+    font-weight: 275;
+    font-size: 60px;
+    line-height: 63.33px;
+    letter-spacing: 0%;
+    color: rgba(255, 255, 255, 1);
+    margin: 0;
+}
+.right-section-div h2 span{
+    font-weight: 400;
+    font-size: 60px;  
+}
+.igo-3k-div{
+    width: 100%;
+    max-width: 368px;
+    height: 234px;
+    position: relative;
+    margin-top:50px;
+}
+.igo-pic{
+    position: absolute;
+    top: -50px;
+    right: 120px;
+    width: 106px;
+    height: 106px;
+    background: rgba(255, 65, 77, 1);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.inner-3k-div{
+    max-width: 366px;
+    /* height: 190; */
+    border-radius: 25px;
+    background: rgba(1, 16, 22, 1);
+}
+.inner-div-describtion{
+    /* width: 100%; */
+    max-width: 311px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 68.33px 34.33px 27.33px 31.27px ;
+}
+.inner-div-describtion h2{
+    font-family: Fahkwang;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    color: rgba(255, 255, 255, 1);
+    margin: 0;    
+}
+.inner-div-describtion h2 sup{  
+    font-family: Poppins;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    color: rgba(255, 255, 255, 1);
+    margin: 0;    
+}
+.inner-div-describtion p{
+    max-width: 129.17px;
+    font-family: Kodchasan;
+    font-weight: 400;
+    font-size: 11.67px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    color: rgba(169, 169, 169, 1);
+    margin: 0;
+}
+.link-3k-div{
+    /* width: 100%; */
+    max-width: 342px;
+    border-bottom-right-radius: 25px;
+    border-bottom-left-radius: 25px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: rgba(255, 65, 77, 1);
+    padding: 10px 10px 14px 14px;
+}
+.link-3k-div a{
+   color: white;
+}
+  
+
+/*  left part */
+
+
+.left-section-div{
+    width: 100%;
+    max-width: 524px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.left-section-div p{
+    font-family: Kodchasan;
+    font-weight: 400;
+    font-size: 13.33px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    color: rgba(169, 169, 169, 1);
+    margin: 0;    
+}
+
+
+
+.accordion {
+    width: 100%;
+    /* max-width: 524px; */
+    padding-top: 37px;
+  }
+  
+  .accordion-item {
+    background: #050a0f;
+    /* margin-bottom: 10px; */
+    /* border-radius: 5px; */
+    padding: 19px 0px 24px 12px;
+    cursor: pointer;
+    border-top: 1.67px solid rgba(133, 225, 232, 1);
+    border-bottom:1.67px solid rgba(133, 225, 232, 1);
+  }  
+  .accordion-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 1.2rem;
+    color: #ccc;
+  }
+  
+  .accordion-header:hover {
+    color: #fff;
+  }
+  
+  .arrow {
+    color: #ff4d6d;
+    font-size: 1.2rem;
+  }
+  
+  .accordion-content {
+    margin-top: 5px;
+    color: #ddd;
+    padding: 10px;
+    border-top: 1px solid #53b6ff;
+  }
+
+
+  @media screen and (max-width:1050px) {
+    .main-section-div-2{
+        padding: 1000px 80px 50px 80px;
+    }
+    .right-section-div h2{
+        max-width: 350px;
+         font-size: 44px;
+         line-height: 43.33px;
+     }
+     .right-section-div h2 span{
+         font-size: 44px;
+         line-height: 43.33px;
+     }
+     .left-section-div{
+        width: 100%;
+        max-width: 350px;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+    .left-section-div p{
+        font-size: 12.33px;
+    }
+    .accordion {
+        width: 100%;
+        /* max-width: 524px; */
+        padding-top: 27px;
+      }
+  }
+
+
+  @media screen and (max-width:930px) {
+    .main-section-div-2{
+        padding: 1300px 50px 50px 50px;
+    }
+  }
+
+  @media screen and (max-width:860px) {
+    .main-section-div-2{
+        padding: 1400px 40px 50px 40px;
+        flex-direction: column;
+    }
+    .right-section-div{
+        /* align-items: center; */
+        max-width: 100%;
+    }
+     .left-section-div{
+        max-width: 100%;
+        /* max-width: 350px; */
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+    .right-section-div h2{
+        max-width: 100%;
+
+     }
+    .left-section-div p{
+        font-size: 12.33px;
+    }
+    .accordion {
+        width: 100%;
+        /* max-width: 524px; */
+        padding-top: 0;
+      }
+  }
+
+
+
+
+
+  @media screen and (max-width: 480px) {
+    .main-section-div-2 {
+        padding: 1350px 25px 0px 25px;
+        overflow: hidden;
+    }
+    .right-section-div h2 {
+        font-size: 22px;
+        line-height: 32px;
+    }
+    .right-section-div h2 span{
+        font-size: 24px;
+        line-height: 32px;
+    }
+    .igo-3k-div {
+        max-width: 100%;
+        height: auto;
+        margin-top: 30px;
+    }
+    .igo-pic {
+        width: 50px;
+        height: 50px;
+        right: 50%;
+        top: -20px;
+        transform: translateX(50%);
+    }
+    .igo-pic img{
+        width: 40px;
+        height: 40px;
+    }
+    .inner-div-describtion h2 {
+        font-size: 24px !important;
+    }
+    .inner-div-describtion p {
+        font-size: 12px;
+    }
+    .link-3k-div {
+        width: 100%;
+    }
+    .left-section-div img {
+        width: 100%;
+        /* max-width: 300px; */
+    }
+    .accordion-header {
+        font-size: 1rem;
+    }
+    .arrow {
+        font-size: 1rem;
+    }
+}
+
+@media screen and (max-width:402px) {
+    .igo-3k-div{
+        width: 100%;
+        max-width: 368px;
+        height: 234px;
+        position: relative;
+        margin-top:50px;
+    }
+    .inner-3k-div{
+        width: 100%;
+        max-width: 366px;
+    }
+    .inner-div-describtion{
+        width: 100%;
+        justify-content: space-around;
+        padding: 68.33px 34.33px 27.33px 0px ;
+    }
+    .link-3k-div{
+        width: 100%;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        gap: 50px;
+        padding: 10px 0px 10px 0px;
+    }
+}
+  

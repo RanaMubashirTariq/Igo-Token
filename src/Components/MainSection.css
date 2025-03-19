@@ -1,0 +1,467 @@
+.hero-container {
+    max-width: 100%;
+    height: auto;
+    /* margin: auto; */
+    /* text-align: center; */
+    padding: 96px 15px 50px 120px;
+    position: relative;
+}
+
+.hero-right-container{
+    width: 100%;
+    max-width: 790px;
+    display: flex;
+    flex-direction: column;
+}
+.unlock-btn {
+    width: 203px;
+    background-color: #ff4d58;
+    color: white;
+    border: none;
+    padding: 12px 24px;
+    font-size: 16px;
+    border-radius: 20px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.unlock-btn:hover {
+    background-color: #e63b46;
+}
+
+.hero-title{
+    font-family: Fahkwang;
+    font-weight: 300;
+    font-size: 73.25px;
+    line-height: 83.33px;
+    letter-spacing: 0%;
+    text-transform: uppercase;
+    color: rgba(255, 255, 255, 1);
+    text-align: left;
+    padding-top: 63px;
+    margin: 0;
+}
+.hero-title em{
+    font-family: Fahkwang;
+    font-weight: 600;
+    font-style: italic;
+    font-size: 73.25px;
+    line-height: 83.33px;
+    letter-spacing: 0%;
+    text-transform: uppercase;
+    color: rgba(255, 255, 255, 1);    
+}
+.info-container {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 75.83px;
+}
+
+.info-box-1 {
+    width: 220px;
+    text-align: left;
+}
+
+.info-box-1  ul li {
+    font-family: Kodchasan;
+    font-weight: 500;
+    font-size: 18.13px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    color: rgba(255, 255, 255, 1);
+    margin: 0;
+}
+
+.info-box-1 p {
+    font-family: Kodchasan;
+    font-weight: 400;
+    font-size: 11.67px;
+    line-height: 159%;
+    letter-spacing: 0%;
+    color: rgba(255, 255, 255, 0.8);
+    margin: 0;
+    padding-top: 11px;
+}
+
+/* Image Section */
+.image-section{
+    box-sizing: border-box;
+    position: absolute;
+    width: 351.67px;
+    height: 243.33px;
+    left: 950px;
+    top: 50.33px;
+    background: rgba(255, 255, 255, 0.1);
+    border: 0.833333px solid rgba(255, 255, 255, 0.34);
+    backdrop-filter: blur(42.83333206176758px) !important;
+    border-radius: 26.6667px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    z-index: 1;
+}
+.profile-logo{
+    width: 45.83333206176758px;
+    height: 45.83333206176758px;
+    border-radius: 50%;
+    background: rgba(255, 65, 77, 1);  
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 27px;
+    left: 34px;
+}
+
+.pic-2{
+    width: 155px;
+    height: 187.5px;
+    border-radius: 15.83px;
+    position: absolute;
+    top: 27px;
+    right: 20px;
+    backdrop-filter: blur(42.83333206176758px);
+}
+.heading-section{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 121px;
+    left: 34px;
+}
+.heading-section h2{
+    font-family: Plus Jakarta Sans;
+    font-weight: 600;
+    font-size: 51.61px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    color: rgba(255, 255, 255, 1);
+    margin: 0;
+}
+.heading-section p{
+    font-family: Plus Jakarta Sans;
+    font-weight: 400;
+    font-size: 19.62px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    color: rgba(255, 255, 255, 1);
+    margin: 0;    
+}
+
+.igo-coin img{
+    width: 380px;
+    height: 394px;
+    position: absolute;
+    top: 254px;
+    left: 900.58px;
+}
+
+
+
+.social-links {
+    width: 50px; 
+    position:absolute;
+    right: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.social-para {
+    writing-mode: vertical-rl;
+    text-align: center;
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-weight: 400;
+    font-size: 17px;
+    color: white;
+}
+
+.social-line img {
+    width: 2px;
+    height: 100px;
+}
+
+.social-link-div {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.social-link-div a img {
+    width: 24px; 
+}
+.log-pin{
+    position: absolute;
+    top: 100%;
+    right: 50%;
+    padding-top: 50px;
+}
+.horizental{
+    display: none;
+}
+
+
+@media screen and (max-width: 1300px) {
+    .hero-container {
+        padding: 80px 110px;
+    }
+    .hero-title {
+        font-size: 56px;
+        line-height: 72px;
+    }
+    .hero-title em{
+        font-size: 56px;
+        line-height: 72px;
+    }
+    .igo-coin img {
+        width: 320px;
+        height: 320px;
+        top: 280px;
+        left: 750px;
+    }
+        .image-section{
+            width: 320.67px;
+            height: 243.33px;
+            left: 800px;
+    }
+    
+.pic-2{
+    width: 130px;
+    height: 180.5px;
+    top: 27px;
+    right: 20px;
+}
+.heading-section{
+    top: 121px;
+    left: 34px;
+}
+.heading-section h2{
+    font-size: 44.61px;
+}
+.heading-section p{
+    font-size: 14.62px;   
+}
+    .igo-coin img{
+        width: 250px;
+        height: 250px;
+        left: 850.58px;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .hero-container {
+        flex-direction: column;
+        align-items: center;
+        padding: 60px 40px;
+        position: absolute;
+    }
+    .hero-right-container{
+        width: 100%;
+        max-width: 450px;
+        display: flex;
+        flex-direction: column;
+    }
+    .hero-title {
+        font-size: 32px;
+    }
+    .hero-title em{
+        font-size: 32px;
+
+    }
+    .info-container {
+        flex-direction: column;
+        /* align-items: flex-start; */
+        margin-top: 35.83px;
+    }
+    .info-box-1 {
+        width: 100%;
+        max-width: 350px;
+        margin-bottom: 20px;
+        /* text-align: center; */
+    }
+    .igo-coin img {
+        width: 280px;
+        height: 280px;
+        top: 320px;
+        left: 600px;
+        right: 50px;
+    }
+    .image-section {
+        width: 320px;
+        height: 220px;
+        left: 600px;
+        right: 20px;
+        top: 60px;
+    }
+    .social-links {
+        width: 250px; 
+        position:absolute;
+           top: 900px;
+           right: -20%;
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+        margin: 0 auto;
+    }
+    .social-para p{
+        writing-mode:horizontal-tb;
+        text-align: center;
+        font-family: Plus Jakarta Sans;
+        font-weight: 400;
+        font-size: 17px;
+        color: white;
+        margin: 0;
+    }
+    .social-line img {
+       display: none;
+    }
+    .horizental{
+        display: block;
+    }
+    
+    .social-link-div {
+        display: flex;
+        flex-direction: row;
+        gap: 10px;
+    }
+    
+    .social-link-div a img {
+        width: 24px; 
+    }
+    .log-pin{
+        display: none;
+    }
+}
+
+@media screen and (max-width: 930px) {
+    .hero-container {
+        padding: 40px 40px;
+        overflow: hidden;
+    }
+    .hero-right-container{
+        max-width: 100%;
+    }
+    .hero-title {
+        font-size: 38px;
+        line-height: 50px;
+    }
+    .hero-title em{
+        font-size: 42px;
+        line-height: 50px;
+    }
+    .info-container {
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-items: flex-start;
+        margin-top: 20.83px;
+    }
+    .image-section {
+        position: static;
+        width: 100%;
+        max-width: 350px;
+        margin: 20px auto;
+    }
+    .igo-coin img {
+        position: static;
+        width: 250px;
+        height: 250px;
+        margin: 0 auto;
+        display: block;
+    }
+    .social-links {
+        position:static;
+        top: 1300px;
+           right: 50%;
+           margin-top: 100px;
+    }
+}
+
+
+@media screen and (max-width: 500px) {
+    .hero-container {
+        padding: 40px 25px;
+        overflow: hidden;
+    }
+    .hero-right-container{
+        max-width: 100%;
+    }
+    .hero-title {
+        font-size: 24px;
+        line-height: 35px;
+    }
+    .hero-title em{
+        font-size: 28px;
+        line-height: 35px;
+    }
+    .info-container {
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-items: flex-start;
+        margin-top: 20.83px;
+    }
+    .image-section {
+        position: static;
+        width: 100%;
+        max-width: 350px;
+        margin: 20px auto;
+    }
+    .igo-coin img {
+        position: static;
+        width: 250px;
+        height: 250px;
+        margin: 0 auto;
+        display: block;
+    }
+    .social-links {
+        position:static;
+        top: 1300px;
+           right: 50%;
+           margin-top: 100px;
+           gap: 0;
+    }
+}
+
+
+@media screen and (max-width:330px) {
+    .hero-container {
+        padding: 30px 25px 30px 25px;
+    }
+    .image-section{
+        height: 203.33px;
+    }
+    .pic-2{
+        width: 105px;
+        height: 147.5px;
+    }
+    .heading-section{
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        top: 121px;
+        left: 34px;
+    }
+    .heading-section h2{
+        font-size: 28.61px;
+    }
+    .heading-section p{
+        font-size: 12.62px;  
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

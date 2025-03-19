@@ -1,0 +1,9 @@
+.main-container-back-pic{
+    width: 100%;
+    height: auto;
+    background-image: url(/public/Pictures/back-pic.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+}

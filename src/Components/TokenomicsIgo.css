@@ -1,0 +1,255 @@
+.teknomics-main-div{
+    max-width: 100%;
+    height: auto;
+    background: url(/public/Pictures/tokenomate.svg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+.teknomics-right-div{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 182.5px 0px 405.67px 150.6px;
+}
+.teknomics-right-div h2{
+    font-family: Fahkwang;
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 63.33px;
+    letter-spacing: 5%;
+    color: rgba(255, 255, 255, 1);
+    margin: 0;    
+}
+.teknomics-right-div p{
+    font-family: Kodchasan;
+    font-weight: 400;
+    font-size: 18.41px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    color: rgba(169, 169, 169, 1);
+    margin: 0;    
+}
+.teknomics-right-div button{
+    outline: none;
+    border: none;
+    width: 178px;
+    height: 44px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 53.33px;
+    gap: 8.33px;
+    background: rgba(255, 65, 77, 1);
+    font-family: Kodchasan;
+    font-weight: 700;
+    font-size: 15.83px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    color: rgba(255, 255, 255, 1);
+}
+.teknomics-right-div button:hover {
+    background: #e04343;
+}
+
+
+
+/* part 2 */
+
+
+
+
+
+.teknomics-igo-left-div{
+    width: 100%;
+    max-width: 532px;
+    padding: 59.17px 195.5px 283.33px;
+}
+.token-allocation-container {
+    width: 100%;
+    background: #051017;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.5);
+  }
+  
+  .allocation-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: rgba(255, 255, 255, 0.05);
+    padding: 12px 16px;
+    border-radius: 12px;
+    margin-bottom: 14px;
+    transition: 0.3s ease;
+  }
+  
+  .allocation-name {
+    font-family: Kodchasan;
+    font-weight: 400;
+    font-size: 20.55px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    color: rgba(255, 255, 255, 0.6);
+    margin: 0;
+  }
+  
+  .allocation-percentage {
+    font-family: Kodchasan;
+    font-weight: 700;
+    font-size: 20.55px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    text-align: right;
+    color: #ff4d4d;
+  }
+
+  .allocation-item:hover {
+    background: linear-gradient(90deg, #1e9bbf 0%, #f53232 100%);
+  }
+  
+  .allocation-item:hover .allocation-name,
+  .allocation-item:hover .allocation-percentage {
+    color: white;
+  }
+  
+  
+
+
+
+
+  @media (max-width: 1310px) {
+    .teknomics-main-div {
+        /* flex-direction: column;
+        align-items: center; */
+        gap: 40px;
+    }
+
+    .teknomics-right-div {
+        padding: 130.5px 0px 305.67px 150.6px;
+    }
+
+    .teknomics-igo-left-div {
+        padding: 59.17px 105.5px 183.33px 0px;
+        max-width: 100%;
+    }
+}
+
+@media (max-width: 1080px) {
+    .teknomics-right-div h2 {
+        font-size: 44px;
+        line-height: 55px;
+    }
+
+    .teknomics-right-div p {
+        font-size: 14px;
+    }
+
+    .teknomics-right-div button {
+        width: 160px;
+        height: 40px;
+        font-size: 14px;
+    }
+
+    .allocation-name,
+    .allocation-percentage {
+        font-size: 18px;
+    }
+    .teknomics-right-div {
+        padding: 130.5px 0px 205.67px 100.6px;
+    }
+}
+
+@media (max-width: 900px) {
+    .teknomics-right-div {
+        padding: 150.5px 0px 160.67px 50.6px;
+    }
+
+    .teknomics-igo-left-div {
+        padding: 59.17px 55.5px 120.33px 0px;
+        max-width: 100%;
+    }
+    .teknomics-right-div h2 {
+        font-size: 36px;
+        line-height: 45px;
+    }
+
+    .teknomics-right-div p {
+        font-size: 14px;
+    }
+
+    .teknomics-right-div button {
+        width: 140px;
+        height: 36px;
+        font-size: 13px;
+    }
+
+    .allocation-name,
+    .allocation-percentage {
+        font-size: 16px;
+    }
+}
+
+@media (max-width:553px) {
+    .teknomics-main-div{
+        flex-direction: column;
+        gap: 0;
+    }
+    .teknomics-right-div {
+        padding: 50.5px 25px 50.67px 25.6px;
+        max-width: 90%;
+    }
+
+    .teknomics-igo-left-div {
+        padding: 0.17px 25.5px 43.33px 25px;
+        max-width: 80%;
+    }
+    .token-allocation-container {
+        padding: 10px;
+      }
+    .teknomics-right-div h2 {
+        font-size: 28px;
+        line-height: 36px;
+    }
+
+    .teknomics-right-div p {
+        font-size: 12px;
+    }
+
+    .teknomics-right-div button {
+        width: 120px;
+        height: 32px;
+        font-size: 12px;
+    }
+
+    .allocation-name,
+    .allocation-percentage {
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 320px) {
+    .teknomics-right-div h2 {
+        font-size: 24px;
+        line-height: 32px;
+    }
+
+    .teknomics-right-div p {
+        font-size: 11px;
+    }
+
+    .teknomics-right-div button {
+        width: 100px;
+        height: 28px;
+        font-size: 11px;
+    }
+
+    .allocation-name,
+    .allocation-percentage {
+        font-size: 12px;
+    }
+}
