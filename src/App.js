@@ -12,10 +12,9 @@ function App() {
   return (
     <div className="App">
            <HomeSection/>
-           {/* <MainSection2/> */}
            <ByIgo/>
             <TokenomicsIgo/>
-            {/* <WhyChoiceIgoSection/> */}
+            <WhyChoiceIgoSection/>
            <Faqs/>
            <GetInvolved/>
            <FooterSection/>
