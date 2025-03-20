@@ -125,28 +125,21 @@
     color: rgba(255, 255, 255, 1);
 }
 
-
-
-
-
-
-
-
-
-
-
+.choice-igo-secion-left-div button:hover {
+    background: #e04343;
+}
 
 
 
 /* Responsive Design */
+
+
 @media (max-width: 1310px) {
     .feature-card {
-        /* flex-direction: column; */
         padding: 0px 100px 100px 100px;
     }
 
     .choice-igo-right-div {
-        /* max-width: 100%; */
         padding: 127.08px 53.18px 70.05px 99px;
     }
     .icon-section h4{
@@ -157,10 +150,7 @@
         font-size: 16.33px;
     }
     .choice-igo-secion-left-div {
-        /* max-width: 100%; */
-        /* text-align: center; */
         align-items: flex-start;
-        /* padding-top:100px ; */
     }
 
     .choice-igo-secion-left-div h4 {
@@ -182,7 +172,6 @@
 
 @media (max-width: 1050px) {
     .feature-card {
-        /* flex-direction: column; */
         padding: 0px 100px 100px 100px;
     }
     .scroll-line {
@@ -194,7 +183,6 @@
         background: linear-gradient(180deg, #FF414D, #FFFFFF);
     }
     .choice-igo-right-div {
-        /* max-width: 100%; */
         padding: 127.08px 25.18px 70.05px 69px;
     }
     .icon-section h4{
@@ -205,10 +193,7 @@
         font-size: 14.33px;
     }
     .choice-igo-secion-left-div {
-        /* max-width: 100%; */
-        /* text-align: center; */
         align-items: flex-start;
-        /* padding-top:100px ; */
     }
 
     .choice-igo-secion-left-div h4 {
@@ -229,7 +214,6 @@
 
 @media screen and (max-width:1000px) {
     .feature-card {
-        /* flex-direction: column; */
         padding: 0px 50px 100px 50px;
     }
 }
